@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Robota', sans-serif;
+}
+
+.container {
+    margin-top: 35vh;
+}
+
+.year {
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.timeofyear {
+    width: 150px;
+    height: 100px;
+    padding-top: 40px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.month {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.winter {
+    background-color: rgb(0, 149, 255);
+}
+
+.spring {
+    background-color: green;
+}
+
+.summer {
+    background-color: rgb(242, 238, 4);
+}
+
+.autumn {
+    background-color: orange;
+}
